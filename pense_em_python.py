@@ -10,6 +10,8 @@ print('meu nome é viccenzo de oliveira')
 print('eu estou cursando o superior chamado ciência da computação')
 print('eu sou portador de deficiência audtitiva')
 print('eu tenho 23 ano e vou fazer 24 em junho dia 27 desse ano')
+print('eu comecei o superior por volta no ano de 2023 em março dia 13 na segunda feira')
+print('O curso para terminar em 2027 quando eu estiver com 25 ano de idade')
 
 ##1.4 operadores aritmeticos
 
@@ -43,9 +45,13 @@ type(32*2)
 
 2,000,000,000
 
-(222,777,888,999)
+print(222*2,333*2,444*2,555*2,666*2,777*2,888*2,999*2)
+print(222*3,333*3,444*3,555*3,666*3,777*3,888*3,999*3)
+print(222*4,333*4,444*4,555*4,666*4,777*4,888*4,999*4) 
 
 ###exercicio do capitulo 1
+
+####Exercicio 1.1:
 
 # print('olá)
 
@@ -427,6 +433,8 @@ bob.initializeTurtle() # Initialize the turtle display
 resultado4 = draw(bob,5,5)
 
 # Capitulo 6 Funções com resultado
+
+
 
 # Capitulo 7: Iteração
 
