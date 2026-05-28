@@ -49,7 +49,7 @@ type(32*2)
 
 2,000,000,000
 
-print(222*2,333*3,444*4,555*5,666*6,777*7,888*9,999*10) 
+print(222*2,333*3,444*4,555*5,666*6,777*7,888*9,999*10)
 
 ###exercicio do capitulo 1
 
@@ -169,13 +169,13 @@ print(2*3-1)
 
 print(int(6+4/2))
 
-print(6+5/2) 
+print(6+5/2)
 
 print(int(6+6/2))
 
 print(6+7/2)
 
-print(int(6+8/2)) 
+print(int(6+8/2))
 
 ###operacoes com strings
 
@@ -195,7 +195,7 @@ print(int(6+8/2))
 
 first = "throat"
 second = "warbler"
-first + second 
+first + second
 
 ' spam ' * 3
 
@@ -228,7 +228,7 @@ percentage = (minuto3 * 100) / 60 #porcentage de uma hora
 print(int(percentage))
 
 n = 42
-print(n)  
+print(n)
 
 xy = 1
 (xy)
@@ -256,7 +256,7 @@ print(float(32))
 
 (float('3.14159'))
 
-(str('32')) 
+(str('32'))
 
 (str(3.14159))
 
