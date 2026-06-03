@@ -1005,7 +1005,72 @@ print(remainder3)
 
 ##Expressões booleanas
 
+print(5 == 5)
 
+print(5 == 6)
+
+print(type(True))
+
+print(type(False))
+
+y = 1
+print(x != y) # x não é igual a y
+
+y1 = 9
+print(x > y1) # x é maior que y
+
+y2 = 23
+print(x < y2) # x é menor que y
+
+y3 = 2
+print(x >= y3) # x é maior ou igual a y
+
+y4 = 3
+print(x <= y4) # x é menor ou igual a y
+
+##Operadores logicos
+
+
+####operador and
+
+x1 = 9
+print(x1 > 0 and x1 < 10) 
+
+####operador or
+
+n1 = 90
+
+print(n1 % 2 == 0 or n1 % 3 == 0 )
+
+###numero % 2 igual a zero ou numero % 3 igual a zero for True or False
+
+n = int(input("Digite um numero inteiro: "))
+n1 = int(input("Digite um numero inteiro: "))
+
+print(f"O numero eh verdadeiro ou falso: {n % 2 == 0 or n1 % 3 == 0}") 
+
+print(42 and True) 
+
+print(42 and False)
+
+print(42 or False)
+
+##Execução condicional
+
+x2 = 3
+
+if x2 > 0:
+  print('x é positivo')
+
+x3 = 3
+
+if x3 < 0:
+  pass
+
+if x3 % 2 == 0:
+  print('x é par')
+else:
+  print('x é impar')
 
 # Capitulo 6 Funções com resultado
 
