@@ -53,7 +53,7 @@ print(222*2,333*3,444*4,555*5,666*6,777*7,888*9,999*10)
 
 ##exercicio do capitulo 1
 
-##Exercicio 1.1
+####Exercicio 1.1
 
 É uma boa ideia ler este livro em frente a um computador para testar os
 exemplos durante a leitura.
@@ -105,7 +105,7 @@ print("4. Zeros à esquerda em números (como 02) causam um SyntaxError no Pytho
 # print(2 2) # Isso causaria um SyntaxError: invalid syntax
 print("5. Dois valores sem um operador entre eles (por exemplo, '2 2') causam um SyntaxError.")
 
-##Exercicio 1.2
+####Exercicio 1.2
 
 Exercício 1.2
 Inicialize o interpretador do Python e use-o como uma calculadora.
@@ -509,7 +509,7 @@ xy = 1
 
 ##exercicio do capitulo 2
 
-##Exercicio 2.1
+####Exercicio 2.1
 
 Repetindo o meu conselho do capítulo anterior, sempre que você aprender
 um recurso novo, você deve testá-lo no modo interativo e fazer erros de
@@ -526,7 +526,7 @@ que acontece se você tentar fazer o mesmo no Python?
 
 
 
-## Exercicio 2.2
+#### Exercicio 2.2
 
 Pratique o uso do interpretador do Python como uma calculadora:
 1. O volume de uma esfera com raio r é . Qual é o volume de uma esfera
@@ -1012,6 +1012,7 @@ print(type(True))
 
 print(type(False))
 
+x = 3
 y = 1
 print(x != y) # x não é igual a y
 
@@ -1056,20 +1057,61 @@ print(42 or False)
 
 ##Execução condicional
 
-x2 = 3
+#### execução condicional
+
+x2 = int(input("Digite qualquer número: "))
 
 if x2 > 0:
-  print('x é positivo')
+  print("x é positivo") 
+elif x2 < 0:
+  print("x é negativo")
 
-x3 = 3
+x3 = 4
 
 if x3 < 0:
-  pass
+  pass 
 
-if x3 % 2 == 0:
-  print('x é par')
+print(x3)
+
+#### execução alternativa
+
+x4 = int(input("Digite qualquer número: "))
+
+if x4 % 2 == 0:
+  print("x is even")
 else:
-  print('x é impar')
+  print("x is odd")
+
+#### condição encadeadas
+
+x5 = int(input("Digite qualquer número: "))
+y5 = int(input("Digite qualquer número: "))
+
+
+
+####execução encadeados
+
+
+
+#### condicionais encadeados
+
+
+
+#### condicionais aninhadas
+
+
+
+####Recursividades
+
+
+
+#### Recursividades infinitas
+
+
+
+####Entrada de teclado
+
+
 
 # Capitulo 6 Funções com resultado
 
@@ -1077,35 +1119,65 @@ else:
 
 # Capitulo 7: Iteração
 
+
+
 # Capitulo 8: Strings
+
+
 
 
 # Capitulo 9 estudos de caso: jogos de palavras
 
+
+
 # Capitulo 10: Lista
+
+
 
 # Capitulo 11: Dicionarios
 
+
+
 # Capitulo 12: Tuplas
+
+
 
 # Capitulo 13: estudos de caso: selecao de estrutura de dados
 
+
+
 # Capitulo 14: arquivos
+
+
 
 # Capitulos 15: Classes e objetos
 
+
+
 # Capitulo 16: Classes e funcoes
+
+
 
 # Capitulo 17: Classes e metodos
 
+
+
 # Capitulo 18: Herança
 
+
+
 # Capitulo 19: Extra
+
+
 
 #capitulo 20:
 
 
+
+
 #capitulo 21:
+
+
 
 #Exercicio pratica
 
