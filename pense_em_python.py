@@ -1062,14 +1062,14 @@ print(42 or False)
 x2 = int(input("Digite qualquer número: "))
 
 if x2 > 0:
-  print("x é positivo") 
+  print("x é positivo")
 elif x2 < 0:
   print("x é negativo")
 
 x3 = 4
 
 if x3 < 0:
-  pass 
+  pass
 
 print(x3)
 
@@ -1087,31 +1087,201 @@ else:
 x5 = int(input("Digite qualquer número: "))
 y5 = int(input("Digite qualquer número: "))
 
+if x5 < y5:
+  print("x is less than y")
+elif x5 > y5:
+  print("x is greater than y")
+else:
+  print("x and y are equal")
+
+choice = input("Digite a letra a, b ou c: ")
+draw_a = 1
+draw_b = 2
+draw_c = 3
+
+if choice == 'a':
+  draw_a()
+elif choice == 'b':
+  draw_b() 
+elif choice == 'c':
+  draw_c()
+
+print(f"O resultado desse exemplo eh: {choice}") 
+
+####Condição aninhadas
+
+x7 = int(input("Digite qualquer número: "))
+y7 = int(input("Digite qualquer número: "))
+
+if x7 == y7:
+  print("x and y are equal")
+else:
+  if x7 < y7:
+    print("x is less than y")
+  else:
+    print("x is greater than y")
+
+x8 = int(input("Digite qualquer número: "))
+
+if 0 < x8:
+  if x8 < 10:
+    print("x is a positive single-digit number")
+
+x9 = int(input("Digite qualquer número: "))
+
+if 0 < x9 and x9 < 10:
+  print("x is a positive single-digit number") 
+
+x10 = int(input("Digite qualquer número: "))
+
+if 0 < x10 < 10:
+  print("x is a positive single-digit number")
 
 
-####execução encadeados
+####Execução alternativa
 
+x6 = int(input("Digite qualquer número: "))
 
+if x6 % 2 == 0:
+  print("x is even")
+else:
+  print("x is odd")
 
-#### condicionais encadeados
+#### Recursividade
 
+def countdown(n):
+  if n <= 0:
+    print("Blastoff!")
+  else:
+    print(n)
+    countdown(n-1)
 
+countdown(10)
 
-#### condicionais aninhadas
+def countdown1(n):
+  return n 
 
+countdown1(3)
 
+# # A função `countdown` é um exemplo clássico de **função recursiva**, o
+#  que significa que ela chama a si mesma para resolver um problema. A ideia 
+# central da recursividade é dividir um problema em versões menores e mais simples 
+# do mesmo problema, até chegar a um caso básico que pode ser resolvido diretamente.
+# # 
+# Vamos analisar a função e a execução de `countdown(3)`:
 
-####Recursividades
+# ```python
+# def countdown(n):
+#   if n <= 0:
+#     print("Blastoff!")
+#   else:
+#     print(n)
+#     countdown(n-1) # Chamada recursiva
+# ```
 
+# ### Como a função funciona:
 
+# 1.  **Caso Base (`if n <= 0`):**
+#     *   Este é o ponto de parada da recursão. Se `n` for `0` ou 
+# negativo, a função imprime "Blastoff!" e não chama mais a si mesma. Isso é crucial para 
+# evitar um loop infinito.
 
-#### Recursividades infinitas
+# 2.  **Passo Recursivo (`else`):**
+#     *   Se `n` for maior que `0`, a função faz duas coisas:
+#         a.  Imprime o valor atual de `n`.
+#         b.  Chama a si mesma (`countdown(n-1)`) com um argumento `n-1`, ou 
+# seja, o problema se torna um pouco menor a cada chamada.
 
+# ### Traço de Execução para `countdown(3)`:
 
+# *   **1. `countdown(3)` é chamada:**
+#     *   `n` é `3` (maior que 0).
+#     *   Imprime: `3`
+#     *   Chama: `countdown(2)`
 
-####Entrada de teclado
+# *   **2. `countdown(2)` é chamada:**
+#     *   `n` é `2` (maior que 0).
+#     *   Imprime: `2`
+#     *   Chama: `countdown(1)`
 
+# *   **3. `countdown(1)` é chamada:**
+#     *   `n` é `1` (maior que 0).
+#     *   Imprime: `1`
+#     *   Chama: `countdown(0)`
 
+# *   **4. `countdown(0)` é chamada:**
+#     *   `n` é `0` (igual a 0).
+#     *   Imprime: `Blastoff!`
+#     *   **Retorna** (aqui a recursão começa a "desempilhar").
+
+# *   **5. `countdown(1)` retorna:**
+#     *   A execução volta para onde `countdown(0)` foi chamada. Não há mais 
+# código na função `countdown(1)` para executar, então ela **retorna**.
+
+# *   **6. `countdown(2)` retorna:**
+#     *   Similarmente, a execução volta para onde `countdown(1)` foi chamada. 
+# `countdown(2)` também **retorna**.
+
+# *   **7. `countdown(3)` retorna:**
+#     *   Finalmente, `countdown(3)` retorna, e o controle volta para a parte do código que chamou 
+# `countdown(3)` inicialmente.
+
+# ### Saída Total:
+# ```
+# 3
+# 2
+# 1
+# Blastoff!
+# ```
+
+# Em resumo, a recursividade é uma técnica poderosa onde uma função resolve um 
+# problema chamando a si mesma com versões menores do problema até atingir um caso base, e
+#  então as soluções das sub-chamadas são combinadas.
+
+def countdown(n):
+  if n <= 0:
+    print("Blastoff!")
+  else:
+    print(n)
+    countdown(n-1)
+
+if __name__ == '__main__':
+  countdown(3)
+
+countdown1(3)
+
+n2 = 2
+n3 = 0
+if n2  > n3:
+  print(n2)
+  countdown1(n2-1)
+  countdown1(n3-2) 
+
+def countdown2(n):
+  return n
+
+countdown2(3)
+
+countdown2(2)
+
+n = 1
+n = 0
+if n  > n:
+  print(n)
+  countdown2(n-1)
+
+def countdown3(n):
+  return n 
+
+countdown3(2)
+
+countdown(1)
+
+n6 = 0
+n7 = 0
+if n6  > n7:
+  print(n6)
+  countdown(n6-1)
 
 # Capitulo 6 Funções com resultado
 
