@@ -55,26 +55,26 @@ print(222*2,333*3,444*4,555*5,666*6,777*7,888*9,999*10)
 
 ####Exercicio 1.1
 
-É uma boa ideia ler este livro em frente a um computador para testar os
-exemplos durante a leitura.
-Sempre que estiver testando um novo recurso, você deve tentar fazer erros.
-Por exemplo, no programa “Hello, World!”, o que acontece se omitir uma das
-aspas? E se omitir ambas? E se você soletrar a instrução print de forma
-errada?
-Este tipo de experimento ajuda a lembrar o que foi lido; também ajuda
-quando você estiver programando, porque assim conhecerá o significado das
-mensagens de erro. É melhor fazer erros agora e de propósito que depois e
-acidentalmente.
-1. Em uma instrução print, o que acontece se você omitir um dos
-parênteses ou ambos?
-2. Se estiver tentando imprimir uma string, o que acontece se omitir uma
-das aspas ou ambas?
-3. Você pode usar um sinal de menos para fazer um número negativo
-como -2. O que acontece se puser um sinal de mais antes de um número? E se
-escrever assim: 2++2?4. Na notação matemática, zeros à esquerda são aceitáveis, como em 02.
-O que acontece se você tentar usar isso no Python?
-5. O que acontece se você tiver dois valores sem nenhum operador entre
-eles?
+# É uma boa ideia ler este livro em frente a um computador para testar os
+# exemplos durante a leitura.
+# Sempre que estiver testando um novo recurso, você deve tentar fazer erros.
+# Por exemplo, no programa “Hello, World!”, o que acontece se omitir uma das
+# aspas? E se omitir ambas? E se você soletrar a instrução print de forma
+# errada?
+# Este tipo de experimento ajuda a lembrar o que foi lido; também ajuda
+# quando você estiver programando, porque assim conhecerá o significado das
+# mensagens de erro. É melhor fazer erros agora e de propósito que depois e
+# acidentalmente.
+# 1. Em uma instrução print, o que acontece se você omitir um dos
+# parênteses ou ambos?
+# 2. Se estiver tentando imprimir uma string, o que acontece se omitir uma
+# das aspas ou ambas?
+# 3. Você pode usar um sinal de menos para fazer um número negativo
+# como -2. O que acontece se puser um sinal de mais antes de um número? E se
+# escrever assim: 2++2?4. Na notação matemática, zeros à esquerda são aceitáveis, como em 02.
+# O que acontece se você tentar usar isso no Python?
+# 5. O que acontece se você tiver dois valores sem nenhum operador entre
+# eles?
 
 
 # 1. Em uma instrução print, o que acontece se você omitir um dos parênteses ou ambos?
@@ -107,14 +107,14 @@ print("5. Dois valores sem um operador entre eles (por exemplo, '2 2') causam um
 
 ####Exercicio 1.2
 
-Exercício 1.2
-Inicialize o interpretador do Python e use-o como uma calculadora.
-1. Quantos segundos há em 42 minutos e 42 segundos?
-2. Quantas milhas há em 10 quilômetros? Dica: uma milha equivale a
-1,61 quilômetro.
-3. Se você correr 10 quilômetros em 42 minutos e 42 segundos, qual é o
-seu passo médio (tempo por milha em minutos e segundos)? Qual é a sua
-velocidade média em milhas por hora?
+# Exercício 1.2
+# Inicialize o interpretador do Python e use-o como uma calculadora.
+# 1. Quantos segundos há em 42 minutos e 42 segundos?
+# 2. Quantas milhas há em 10 quilômetros? Dica: uma milha equivale a
+# 1,61 quilômetro.
+# 3. Se você correr 10 quilômetros em 42 minutos e 42 segundos, qual é o
+# seu passo médio (tempo por milha em minutos e segundos)? Qual é a sua
+# velocidade média em milhas por hora?
 
 
 # 1. Quantos segundos há em 42 minutos e 42 segundos?
@@ -212,8 +212,7 @@ x2 = 5
 print(x2 + 1)
 
 ###ordem das operações
-
-expressoes de parentese
+# expressoes de parentese
 
 print(2*(3-1))
 
@@ -529,41 +528,42 @@ xy = 1
 
 ####Exercicio 2.1
 
-Repetindo o meu conselho do capítulo anterior, sempre que você aprender
-um recurso novo, você deve testá-lo no modo interativo e fazer erros de
-propósito para ver o que acontece.
-• Vimos que n = 42 é legal. E 42 = n?
-• Ou x = y = 1?
-• Em algumas linguagens, cada instrução termina em um ponto e vírgula
-;. O que acontece se você puser um ponto e vírgula no fim de uma instrução
-no Python?
-• E se puser um ponto no fim de uma instrução?
-• Em notação matemática é possível multiplicar x e y desta forma: xy. O
-que acontece se você tentar fazer o mesmo no Python?
+# Repetindo o meu conselho do capítulo anterior, sempre que você aprender
+# um recurso novo, você deve testá-lo no modo interativo e fazer erros de
+# propósito para ver o que acontece.
+# • Vimos que n = 42 é legal. E 42 = n?
+# • Ou x = y = 1?
+# • Em algumas linguagens, cada instrução termina em um ponto e vírgula
+# ;. O que acontece se você puser um ponto e vírgula no fim de uma instrução
+# no Python?
+# • E se puser um ponto no fim de uma instrução?
+# • Em notação matemática é possível multiplicar x e y desta forma: xy. O
+# que acontece se você tentar fazer o mesmo no Python?
 
 
 
 
 #### Exercicio 2.2
 
-Pratique o uso do interpretador do Python como uma calculadora:
-1. O volume de uma esfera com raio r é . Qual é o volume de uma esfera
-com raio 5?
-2. Suponha que o preço de capa de um livro seja R$ 24,95, mas as
-livrarias recebem um desconto de 40%. O transporte custa R$ 3,00 para o
-primeiro exemplar e 75 centavos para cada exemplar adicional. Qual é o
-custo total de atacado para 60 cópias?
-3. Se eu sair da minha casa às 6:52 e correr 1 quilômetro a um certo
-passo (8min15s por quilômetro), então 3 quilômetros a um passo mais rápido
-(7min12s por quilômetro) e 1 quilômetro no mesmo passo usado em primeiro
-lugar, que horas chego em casa para o café da manhã?
+# Pratique o uso do interpretador do Python como uma calculadora:
+# 1. O volume de uma esfera com raio r é . Qual é o volume de uma esfera
+# com raio 5?
+# 2. Suponha que o preço de capa de um livro seja R$ 24,95, mas as
+# livrarias recebem um desconto de 40%. O transporte custa R$ 3,00 para o
+# primeiro exemplar e 75 centavos para cada exemplar adicional. Qual é o
+# custo total de atacado para 60 cópias?
+# 3. Se eu sair da minha casa às 6:52 e correr 1 quilômetro a um certo
+# passo (8min15s por quilômetro), então 3 quilômetros a um passo mais rápido
+# (7min12s por quilômetro) e 1 quilômetro no mesmo passo usado em primeiro
+# lugar, que horas chego em casa para o café da manhã?
 
 
 
 
 # Capitulo 3: funcoes
 
-###3.1 - chamada de função usando o type , int, str, o type eh para identificar o numero e palavra e o int usado para mostrar o valor sem o ponto flutuante e o float mostrar varios ponto flutuante
+###3.1 - chamada de função usando o type , int, str, o type eh para identificar o numero e
+# palavra e o int usado para mostrar o valor sem o ponto flutuante e o float mostrar varios ponto flutuante
 
 print(type(42))
 
@@ -700,7 +700,7 @@ def repeat_lyric7():
 repeat_lyric7()
 
 ####parâmetros e argumentos
-Dentro da função os argumentos são atribuídos a variaveis chamada parâmetros
+# Dentro da função os argumentos são atribuídos a variaveis chamada parâmetros
 
 import math
 def print_twice(bruce,bruce1):
@@ -713,7 +713,8 @@ print_twice(math.pi,math.pi)
 print_twice(' spam '* 3,' spam ' * 4) # 12 palavras spam
 print_twice(math.sin(math.pi), math.sin(math.pi))
 
-####a mesma composição do codigo anterior usando a função integrada são aplicada a função definidas pelos programadores, então podemos usar qualquer tipo de expressão como argumentos
+####a mesma composição do codigo anterior usando a função integrada são aplicada a função definidas pelos 
+# programadores, então podemos usar qualquer tipo de expressão como argumentos
 
 import math
 def print_twice1(bruce3):
@@ -778,48 +779,49 @@ print(type(result))
 ##Exercicio do capitulo 3
 
 ####Exercicio 3.1
-Escreva uma função chamada right_justify, que receba uma string chamada s
-como parâmetro e exiba a string com espaços suficientes à frente para que a
-última letra da string esteja na coluna 70 da tela:
->>> right_justify(‘monty’)
-monty
-Dica: Use concatenação de strings e repetição. Além disso, o Python oferece
-uma função integrada chamada len, que apresenta o comprimento de uma
-string, então o valor de len(‘monty’) é 5.
-
+# Escreva uma função chamada right_justify, que receba uma string chamada s
+# como parâmetro e exiba a string com espaços suficientes à frente para que a
+# última letra da string esteja na coluna 70 da tela:
+# >>> right_justify(‘monty’)
+# monty
+# Dica: Use concatenação de strings e repetição. Além disso, o Python oferece
+# uma função integrada chamada len, que apresenta o comprimento de uma
+# string, então o valor de len(‘monty’) é 5.
+# 
 
 
 ###Exercicio 3.2
-Um objeto de função é um valor que pode ser atribuído a uma variável ou
-passado como argumento. Por exemplo, do_twice é uma função que toma umobjeto de função como argumento e o chama duas vezes:
-def do_twice(f):
-f()
-f()
-Aqui está um exemplo que usa do_twice para chamar uma função chamada
-print_spam duas vezes:
-def print_spam():
-print(‘spam’)
-do_twice(print_spam)
-1. Digite este exemplo em um script e teste-o.
-2. Altere do_twice para que receba dois argumentos, um objeto de
-função e um valor, e chame a função duas vezes, passando o valor como um
-argumento.
-3. Copie a definição de print_twice que aparece anteriormente neste
-capítulo no seu script.
-4. Use a versão alterada de do_twice para chamar print_twice duas vezes,
-passando ‘spam’ como um argumento.
-5. Defina uma função nova chamada do_four que receba um objeto de
-função e um valor e chame a função quatro vezes, passando o valor como um
-parâmetro. Deve haver só duas afirmações no corpo desta função, não quatro.
-Solução: http://thinkpython2.com/code/do_four.py.
+# Um objeto de função é um valor que pode ser atribuído a uma variável ou
+# passado como argumento. Por exemplo, do_twice é uma função que toma umobjeto de função 
+# como argumento e o chama duas vezes:
+# def do_twice(f):
+# f()
+# f()
+# Aqui está um exemplo que usa do_twice para chamar uma função chamada
+# print_spam duas vezes:
+# def print_spam():
+# print(‘spam’)
+# do_twice(print_spam)
+# 1. Digite este exemplo em um script e teste-o.
+# 2. Altere do_twice para que receba dois argumentos, um objeto de
+# função e um valor, e chame a função duas vezes, passando o valor como um
+# argumento.
+# 3. Copie a definição de print_twice que aparece anteriormente neste
+# capítulo no seu script.
+# 4. Use a versão alterada de do_twice para chamar print_twice duas vezes,
+# passando ‘spam’ como um argumento.
+# 5. Defina uma função nova chamada do_four que receba um objeto de
+# função e um valor e chame a função quatro vezes, passando o valor como um
+# parâmetro. Deve haver só duas afirmações no corpo desta função, não quatro.
+# Solução: http://thinkpython2.com/code/do_four.py.
 
 
 
 
 ###Exercicio 3.3
 
-Nota: Este exercício deve ser feito usando-se apenas as instruções e os outros
-recursos que aprendemos até agora.1. Escreva uma função que desenhe uma grade como a seguinte:
+# Nota: Este exercício deve ser feito usando-se apenas as instruções e os outros
+# recursos que aprendemos até agora.1. Escreva uma função que desenhe uma grade como a seguinte:
 
 #+ - - - - + - - - - +
 #| | |
@@ -834,20 +836,20 @@ recursos que aprendemos até agora.1. Escreva uma função que desenhe uma grade
 #+ - - - - + - - - - +
 
 
-Dica: para exibir mais de um valor em uma linha, podemos usar uma
-sequência de valores separados por vírgula:
-print(‘+’, ‘-’)
-Por padrão, print avança para a linha seguinte, mas podemos ignorar
-esse comportamento e inserir um espaço no fim, desta forma:
-print(‘+’, end=’ ’)
-print(‘-’)
-A saída dessas instruções é ‘+ -’.
-Uma instrução print sem argumento termina a linha atual e vai para apróxima linha.
-2. Escreva uma função que desenhe uma grade semelhante com quatro
-linhas e quatro colunas.
-Solução: http://thinkpython2.com/code/grid.py. Crédito: Este exercício é
-baseado em outro apresentado por Oualline, em Practical C Programming,
-Third Edition, O’Reilly Media, 1997.
+# Dica: para exibir mais de um valor em uma linha, podemos usar uma
+# sequência de valores separados por vírgula:
+# print(‘+’, ‘-’)
+# Por padrão, print avança para a linha seguinte, mas podemos ignorar
+# esse comportamento e inserir um espaço no fim, desta forma:
+# print(‘+’, end=’ ’)
+# print(‘-’)
+# A saída dessas instruções é ‘+ -’.
+# Uma instrução print sem argumento termina a linha atual e vai para apróxima linha.
+# 2. Escreva uma função que desenhe uma grade semelhante com quatro
+# linhas e quatro colunas.
+# Solução: http://thinkpython2.com/code/grid.py. Crédito: Este exercício é
+# baseado em outro apresentado por Oualline, em Practical C Programming,
+# Third Edition, O’Reilly Media, 1997.
 
 
 
@@ -1406,25 +1408,29 @@ while x11 > 0 and y11 < 0:
 #capitulo 21:Análises de algoritmo
 
 
-
+ # esse quem gerou foi o gemini do colab e eu pedir para me auxiliar para eu poder compreender o que IA fez pra mim
 text_answer = """
 Exercício 21.1 - Notação Grande-O (Big-Oh notation)
 
 Aqui estão as respostas e o raciocínio para cada pergunta, baseado nos princípios da Notação Grande-O:
 
 1.  **Qual é a ordem de crescimento de n^3 + n^2? E de 1000000n^3 + n^2? Ou de n^3 + 1000000n^2?**
-    *   **Princípio:** A notação Big-O foca no termo de maior crescimento (termo dominante) à medida que 'n' se aproxima do infinito. Coeficientes constantes e termos de menor ordem são desconsiderados.
+    *   **Princípio:** A notação Big-O foca no termo de maior crescimento (termo dominante) à medida que 'n' se
+     aproxima do infinito. Coeficientes constantes e termos de menor ordem são desconsiderados.
 
     *   **n^3 + n^2:** O termo dominante é n^3.
         *   **Ordem de crescimento:** O(n^3)
 
-    *   **1000000n^3 + n^2:** O termo dominante é n^3. O coeficiente 1000000 não altera a ordem de crescimento assintótica.
+    *   **1000000n^3 + n^2:** O termo dominante é n^3. O coeficiente 1000000 não altera a 
+    ordem de crescimento assintótica.
         *   **Ordem de crescimento:** O(n^3)
 
-    *   **n^3 + 1000000n^2:** O termo dominante é n^3, pois n^3 cresce muito mais rápido que n^2, mesmo com um grande coeficiente.
+    *   **n^3 + 1000000n^2:** O termo dominante é n^3, 
+    pois n^3 cresce muito mais rápido que n^2, mesmo com um grande coeficiente.
         *   **Ordem de crescimento:** O(n^3)
 
-2.  **Qual é a ordem de crescimento de (n^2 + n) . (n + 1)? Antes de começar a multiplicar, lembre-se de que você só precisa do termo principal.**
+2.  **Qual é a ordem de crescimento de (n^2 + n) . (n + 1)? Antes de começar a multiplicar, lembre-se de que você só
+ precisa do termo principal.**
     *   **Princípio:** Para produtos de funções, você pode multiplicar os termos dominantes de cada fator.
 
     *   **Termos dominantes:** O termo dominante de (n^2 + n) é n^2. O termo dominante de (n + 1) é n.
@@ -1433,9 +1439,13 @@ Aqui estão as respostas e o raciocínio para cada pergunta, baseado nos princí
     *   (Se você expandir completamente, terá n^3 + 2n^2 + n, cujo termo dominante é n^3).
 
 3.  **Se f está em O(g), para alguma função não especificada g, o que podemos dizer de af+b?**
-    *   **Princípio:** Coeficientes constantes e termos de menor ordem não afetam a ordem de crescimento de uma função no contexto Big-O.
+    *   **Princípio:** Coeficientes constantes e termos de menor ordem não afetam a ordem de crescimento de
+     uma função no contexto Big-O.
     *   **Resposta:** Se f(n) está em O(g(n)), então a função af(n) + b também está em **O(g(n))**.
-        *   Isso ocorre porque 'a' é uma constante multiplicativa e 'b' é uma constante aditiva (ou um termo de ordem menor se for uma função constante), e a notação Big-O é sobre o comportamento assintótico para grandes 'n', onde esses fatores se tornam insignificantes em comparação com o termo dominante.
+        *   Isso ocorre porque 'a' é uma constante multiplicativa e 'b' é 
+        uma constante aditiva (ou um termo de ordem menor se for uma função constante), 
+        e a notação Big-O é sobre o comportamento assintótico para grandes 'n', onde esses fatores se tornam 
+        insignificantes em comparação com o termo dominante.
 
 4.  **Se f1 e f2 estão em O(g), o que podemos dizer a respeito de f1 + f2?**
     *   **Princípio:** Se duas funções têm a mesma ordem de crescimento, a soma delas também terá essa ordem de crescimento.
@@ -1445,7 +1455,8 @@ Aqui estão as respostas e o raciocínio para cada pergunta, baseado nos princí
 5.  **Se f1 está em O(g) e f2 está em O(h), o que podemos dizer a respeito de f1 + f2?**
     *   **Princípio:** A ordem de crescimento da soma de duas funções é dominada pela função com a maior taxa de crescimento.
     *   **Resposta:** Se f1(n) está em O(g(n)) e f2(n) está em O(h(n)), então f1(n) + f2(n) está em **O(max(g(n), h(n)))**.
-        *   Isso significa que você pega a função de maior complexidade entre g(n) e h(n). Por exemplo, se g(n) = n e h(n) = n^2, então f1(n) + f2(n) seria O(n^2).
+        *   Isso significa que você pega a função de maior complexidade entre g(n) e h(n). Por exemplo, 
+        se g(n) = n e h(n) = n^2, então f1(n) + f2(n) seria O(n^2).
 
 6.  **Se f1 está em O(g) e f2 é O(h), o que podemos dizer a respeito de f1 . f2?**
     *   **Princípio:** A ordem de crescimento do produto de duas funções é o produto de suas ordens de crescimento.
@@ -1459,7 +1470,7 @@ print(text_answer)
 
 ### Exemplos Práticos da Notação Big-O
 
-Vamos usar o Python para visualizar como as funções crescem e como os princípios da Notação Big-O se aplicam.
+# Vamos usar o Python para visualizar como as funções crescem e como os princípios da Notação Big-O se aplicam.
 
 # Para a questão 1: Ordem de crescimento de n^3 + n^2, 1000000n^3 + n^2, n^3 + 1000000n^2
 
@@ -1479,7 +1490,8 @@ plt.figure(figsize=(12, 8))
 plt.plot(n_values, f1(n_values), label='f1(n) = n^3 + n^2')
 plt.plot(n_values, f2(n_values), label='f2(n) = 1000000n^3 + n^2')
 plt.plot(n_values, f3(n_values), label='f3(n) = n^3 + 1000000n^2')
-plt.plot(n_values, g_n3(n_values) * 1000000, linestyle='--', color='black', label='C * n^3 (para comparação)') # Multiplicar C para que seja visível
+plt.plot(n_values, g_n3(n_values) * 1000000, linestyle='--',
+         color='black', label='C * n^3 (para comparação)') # Multiplicar C para que seja visível
 
 plt.title('Crescimento de Funções e Termo Dominante')
 plt.xlabel('n')
@@ -1494,21 +1506,32 @@ print("Para todas as funções acima, a ordem de crescimento é O(n^3).")
 
 #### Explicação da Questão 1 (Código):
 
-Neste gráfico, observamos três funções que, à primeira vista, podem parecer muito diferentes devido aos seus coeficientes. No entanto, o conceito de Big-O nos diz para focar no termo que cresce mais rapidamente quando `n` se torna muito grande.
+# Neste gráfico, observamos três funções que, à primeira vista, podem parecer 
+# muito diferentes devido aos seus coeficientes. No entanto, o conceito de Big-O nos diz para 
+# focar no termo que cresce mais rapidamente quando `n` se torna muito grande.
 
-- `f1(n) = n^3 + n^2`: O termo dominante é `n^3`.
-- `f2(n) = 1000000n^3 + n^2`: O termo dominante ainda é `n^3`. O coeficiente `1000000` apenas estica a função verticalmente, mas não muda a sua forma fundamental de crescimento cúbico.
-- `f3(n) = n^3 + 1000000n^2`: Aqui, embora `1000000n^2` pareça grande para pequenos `n`, `n^3` eventualmente superará `n^2` (mesmo com o coeficiente). Por exemplo, para `n=1000`, `n^3` é `10^9`, enquanto `1000000n^2` é `10^6 * 10^6 = 10^12`. Ah, peraí! O `n^3` é `10^9`, e `1000000 * n^2` é `10^6 * (10^3)^2 = 10^6 * 10^6 = 10^12`. Meu exemplo numérico estava errado. `10^12` é maior que `10^9`. Então, para `n=1000`, `1000000n^2` domina. Mas a partir de qual `n` o `n^3` se torna dominante?
+# - `f1(n) = n^3 + n^2`: O termo dominante é `n^3`.
+# - `f2(n) = 1000000n^3 + n^2`: O termo dominante ainda
+# é `n^3`. O coeficiente `1000000` apenas estica a função verticalmente, mas não muda a sua forma 
+# fundamental de crescimento cúbico.
+# - `f3(n) = n^3 + 1000000n^2`: Aqui, embora `1000000n^2` pareça grande para pequenos `n`, `n^3` 
+# eventualmente superará `n^2` (mesmo com o coeficiente). Por exemplo, para `n=1000`, `n^3` é `
+# 10^9`, enquanto `1000000n^2` é `10^6 * 10^6 = 10^12`. Ah, peraí! O `n^3` é `10^9`, e `1000000 * n^2` é 
+# `10^6 * (10^3)^2 = 10^6 * 10^6 = 10^12`. Meu exemplo numérico estava errado. `10^12` é maior que `10^9`. 
+# Então, para `n=1000`, `1000000n^2` domina. Mas a partir de qual `n` o `n^3` se torna dominante?
 
-Vamos recalcular para f3(n):
-`n^3` vs `1000000n^2`
-Dividindo por `n^2` (para `n > 0`):
-`n` vs `1000000`
-Então, para `n > 1000000`, o termo `n^3` se torna dominante. Para os pequenos valores de `n` no gráfico, o termo `1000000n^2` é quem domina. Isso reforça a importância do "para n suficientemente grande".
-
-O gráfico mostra que todas as funções seguem o padrão de crescimento de `n^3`, mesmo que `f2` e `f3` sejam escaladas verticalmente. A linha tracejada preta (C * n^3) serve para ilustrar que, com uma constante `C` adequada, o comportamento das funções pode ser limitado por `n^3`.
-
-**Conclusão para Q1:** Todas as funções têm ordem de crescimento **O(n^3)**.
+# Vamos recalcular para f3(n):
+# `n^3` vs `1000000n^2`
+# Dividindo por `n^2` (para `n > 0`):
+# `n` vs `1000000`
+# Então, para `n > 1000000`, o termo `n^3` se torna dominante. Para os pequenos valores de `n` no gráfico, o termo 
+# `1000000n^2` é quem domina. Isso reforça a importância do "para n suficientemente grande".
+# 
+# O gráfico mostra que todas as funções seguem o padrão de crescimento de `n^3`
+# , mesmo que `f2` e `f3` sejam escaladas verticalmente. A linha tracejada preta (C * n^3) serve 
+# para ilustrar que, com uma constante `C` adequada, o comportamento das funções pode ser limitado por `n^3`.
+# 
+# **Conclusão para Q1:** Todas as funções têm ordem de crescimento **O(n^3)**.
 
 # Para a questão 2: Ordem de crescimento de (n^2 + n) . (n + 1)
 
@@ -1540,16 +1563,20 @@ print("Portanto, a ordem de crescimento de (n^2 + n) . (n + 1) é O(n^3).")
 
 #### Explicação da Questão 2 (Código):
 
-Quando lidamos com o produto de funções, a regra simplificada da Notação Big-O nos permite multiplicar os termos dominantes de cada fator.
-
-- Para `(n^2 + n)`, o termo dominante é `n^2`.
-- Para `(n + 1)`, o termo dominante é `n`.
-
-Ao multiplicar esses termos dominantes (`n^2 * n`), obtemos `n^3`. O gráfico confirma que a função `(n^2 + n) * (n + 1)` cresce de forma similar a `n^3`, pois a linha da função `h1(n)` acompanha de perto a linha de `n^3`.
-
-**Conclusão para Q2:** A ordem de crescimento é **O(n^3)**.
-
-Vamos agora para as questões 3, 4, 5 e 6, que tratam mais das propriedades da notação Big-O com composição e adição/multiplicação de funções.
+# Quando lidamos com o produto de funções, a regra simplificada da Notação Big-O nos
+# permite multiplicar os termos dominantes de cada fator.
+# 
+# - Para `(n^2 + n)`, o termo dominante é `n^2`.
+# - Para `(n + 1)`, o termo dominante é `n`.
+# 
+# Ao multiplicar esses termos dominantes (`n^2 * n`), obtemos `n^3`. 
+# O gráfico confirma que a função `(n^2 + n) * (n + 1)` 
+# cresce de forma similar a `n^3`, pois a linha da função `h1(n)` acompanha de perto a linha de `n^3`.
+# 
+# **Conclusão para Q2:** A ordem de crescimento é **O(n^3)**.
+# 
+# Vamos agora para as questões 3, 4, 5 e 6, que tratam mais das 
+# propriedades da notação Big-O com composição e adição/multiplicação de funções.
 
 # Para a questão 3: Se f está em O(g), o que podemos dizer de af+b?
 
@@ -1576,18 +1603,25 @@ plt.grid(True)
 plt.ylim(bottom=0)
 plt.show()
 
-print("Se f(n) está em O(g(n)), isso significa que para n suficientemente grande, f(n) <= C * g(n) para alguma constante C.")
+print("Se f(n) está em O(g(n)), isso significa que para n suficientemente grande, f(n) <= C * g(n) "
+      "para alguma constante C.")
 print("Quando aplicamos af(n) + b, o termo 'a' apenas escala f(n) e 'b' adiciona uma constante.")
 print("No comportamento assintótico, essas constantes não mudam a ordem de crescimento fundamental.")
 print("Portanto, se f está em O(g), então af + b também está em O(g).")
 
 #### Explicação da Questão 3 (Código):
 
-O Big-O é sobre o comportamento assintótico, ou seja, o que acontece com a função quando `n` se torna muito, muito grande. Constantes multiplicativas (`a`) e aditivas (`b`) não alteram a forma como a função cresce a longo prazo.
-
-No exemplo, `f_example(n)` é `O(n^2)`. Quando calculamos `af_plus_b(n)`, que é `2 * f_example(n) + 100`, o gráfico mostra que ela ainda mantém o mesmo padrão de crescimento quadrático, apenas é um pouco mais alta. A linha `C * g(n)` (que é `10 * n^2`) demonstra que a função `af_plus_b` ainda pode ser limitada por uma versão escalada de `g(n)`.
-
-**Conclusão para Q3:** Se `f` está em `O(g)`, então `af + b` também está em **O(g)**.
+# O Big-O é sobre o comportamento assintótico, ou seja, o que acontece com a 
+# função quando `n` se torna muito, muito grande. Constantes multiplicativas (`a`) e 
+# aditivas (`b`) não alteram a forma como a função cresce a longo prazo.
+# 
+# No exemplo, `f_example(n)` é `O(n^2)`. Quando calculamos `af_plus_b(n)`,
+# que é `2 * f_example(n) + 100`, o gráfico mostra que ela ainda mantém 
+# o mesmo padrão de crescimento quadrático, apenas é um pouco mais alta. 
+# A linha `C * g(n)` (que é `10 * n^2`) demonstra que a função `af_plus_b` 
+# ainda pode ser limitada por uma versão escalada de `g(n)`.
+# 
+# **Conclusão para Q3:** Se `f` está em `O(g)`, então `af + b` também está em **O(g)**.
 
 # Para a questão 4: Se f1 e f2 estão em O(g), o que podemos dizer a respeito de f1 + f2?
 
@@ -1606,7 +1640,8 @@ plt.figure(figsize=(10, 6))
 plt.plot(n_values, f1_qn4(n_values), label='f1(n) = 3n^2 + 5n (O(n^2))')
 plt.plot(n_values, f2_qn4(n_values), label='f2(n) = 2n^2 + 10 (O(n^2))')
 plt.plot(n_values, sum_f1_f2_qn4(n_values), label='f1(n) + f2(n)')
-plt.plot(n_values, g_qn4(n_values) * 5, linestyle='--', color='red', label='C * g(n) = 5n^2 (para comparação de O(n^2))')
+plt.plot(n_values, g_qn4(n_values) * 5, linestyle='--', color='red', 
+         label='C * g(n) = 5n^2 (para comparação de O(n^2))')
 
 plt.title('Soma de Funções com Mesma Ordem de Crescimento')
 plt.xlabel('n')
@@ -1622,11 +1657,14 @@ print("Portanto, se f1 e f2 estão em O(g), então f1 + f2 também está em O(g)
 
 #### Explicação da Questão 4 (Código):
 
-Quando somamos duas funções que têm a mesma ordem de crescimento Big-O (ambas `O(g)`), o resultado da soma também terá a mesma ordem de crescimento.
-
-No exemplo, `f1_qn4(n)` (`3n^2 + 5n`) é `O(n^2)` e `f2_qn4(n)` (`2n^2 + 10`) também é `O(n^2)`. A soma `f1_qn4(n) + f2_qn4(n)` resulta em `5n^2 + 5n + 10`, que, como esperado, é `O(n^2)`. O gráfico mostra que a soma segue o mesmo padrão de crescimento quadrático.
-
-**Conclusão para Q4:** Se `f1` e `f2` estão em `O(g)`, então `f1 + f2` também está em **O(g)**.
+# Quando somamos duas funções que têm a mesma ordem de crescimento Big-O 
+# (ambas `O(g)`), o resultado da soma também terá a mesma ordem de crescimento.
+# 
+# No exemplo, `f1_qn4(n)` (`3n^2 + 5n`) é `O(n^2)` e `f2_qn4(n)` (`2n^2 + 10`)
+# também é `O(n^2)`. A soma `f1_qn4(n) + f2_qn4(n)` resulta em `5n^2 + 5n + 10`, 
+# que, como esperado, é `O(n^2)`. O gráfico mostra que a soma segue o mesmo padrão de crescimento quadrático.
+# 
+# **Conclusão para Q4:** Se `f1` e `f2` estão em `O(g)`, então `f1 + f2` também está em **O(g)**.
 
 # Para a questão 5: Se f1 está em O(g) e f2 está em O(h), o que podemos dizer a respeito de f1 + f2?
 
@@ -1646,7 +1684,8 @@ plt.figure(figsize=(10, 6))
 plt.plot(n_values, f1_qn5(n_values), label='f1(n) = 5n + 2 (O(n))')
 plt.plot(n_values, f2_qn5(n_values), label='f2(n) = 2n^2 + 10n (O(n^2))')
 plt.plot(n_values, sum_f1_f2_qn5(n_values), label='f1(n) + f2(n)')
-plt.plot(n_values, h_qn5(n_values) * 2.5, linestyle='--', color='red', label='C * h(n) = 2.5n^2 (para comparação de O(n^2))')
+plt.plot(n_values, h_qn5(n_values) * 2.5, linestyle='--', color='red', label='C * h(n) = '
+                                                                             '2.5n^2 (para comparação de O(n^2))')
 
 plt.title('Soma de Funções com Diferentes Ordens de Crescimento')
 plt.xlabel('n')
@@ -1662,15 +1701,18 @@ print("Portanto, se f1 está em O(g) e f2 está em O(h), então f1 + f2 está em
 
 #### Explicação da Questão 5 (Código):
 
-Quando somamos funções com ordens de crescimento diferentes, a função resultante terá a ordem de crescimento da função que cresce mais rapidamente. Isso é conhecido como a regra do `max`.
-
-No exemplo:
-- `f1_qn5(n)` (`5n + 2`) é `O(n)`.
-- `f2_qn5(n)` (`2n^2 + 10n`) é `O(n^2)`.
-
-A soma `f1_qn5(n) + f2_qn5(n)` resulta em `2n^2 + 15n + 2`. O termo dominante é `2n^2`, o que significa que a soma é `O(n^2)`. O gráfico ilustra claramente que `f1 + f2` segue o padrão de crescimento de `n^2`, que é a ordem mais alta entre `O(n)` e `O(n^2)`.
-
-**Conclusão para Q5:** Se `f1` está em `O(g)` e `f2` está em `O(h)`, então `f1 + f2` está em **O(max(g, h))**.
+# Quando somamos funções com ordens de crescimento diferentes, a função resultante terá a ordem de 
+# crescimento da função que cresce mais rapidamente. Isso é conhecido como a regra do `max`.
+# 
+# No exemplo:
+# - `f1_qn5(n)` (`5n + 2`) é `O(n)`.
+# - `f2_qn5(n)` (`2n^2 + 10n`) é `O(n^2)`.
+# 
+# A soma `f1_qn5(n) + f2_qn5(n)` resulta em `2n^2 + 15n + 2`. O termo dominante é `2n^2`,
+# o que significa que a soma é `O(n^2)`. O gráfico ilustra claramente que `f1 + f2` 
+# segue o padrão de crescimento de `n^2`, que é a ordem mais alta entre `O(n)` e `O(n^2)`.
+# 
+# **Conclusão para Q5:** Se `f1` está em `O(g)` e `f2` está em `O(h)`, então `f1 + f2` está em **O(max(g, h))**.
 
 # Para a questão 6: Se f1 está em O(g) e f2 é O(h), o que podemos dizer a respeito de f1 . f2?
 
@@ -1691,7 +1733,8 @@ plt.figure(figsize=(10, 6))
 plt.plot(n_values, f1_qn6(n_values), label='f1(n) = 3n (O(n))')
 plt.plot(n_values, f2_qn6(n_values), label='f2(n) = 4n^2 (O(n^2))')
 plt.plot(n_values, prod_f1_f2_qn6(n_values), label='f1(n) * f2(n)')
-plt.plot(n_values, gh_qn6(n_values) * 12, linestyle='--', color='red', label='C * g(n) * h(n) = C * n^3 (para comparação de O(n^3))')
+plt.plot(n_values, gh_qn6(n_values) * 12, linestyle='--', color='red', label='C * g(n) * h(n)'
+                                                                             ' = C * n^3 (para comparação de O(n^3))')
 
 plt.title('Produto de Funções com Diferentes Ordens de Crescimento')
 plt.xlabel('n')
@@ -1707,15 +1750,17 @@ print("Portanto, se f1 está em O(g) e f2 está em O(h), então f1 . f2 está em
 
 #### Explicação da Questão 6 (Código):
 
-Para o produto de duas funções, a ordem de crescimento resultante é o produto das ordens de crescimento individuais.
-
-No exemplo:
-- `f1_qn6(n)` (`3n`) é `O(n)`.
-- `f2_qn6(n)` (`4n^2`) é `O(n^2)`.
-
-O produto `f1_qn6(n) * f2_qn6(n)` é `(3n) * (4n^2) = 12n^3`. Como esperado, a ordem de crescimento é `O(n^3)`. O gráfico mostra que o produto das duas funções (`f1(n) * f2(n)`) segue o mesmo padrão de crescimento de `n^3`.
-
-**Conclusão para Q6:** Se `f1` está em `O(g)` e `f2` está em `O(h)`, então `f1 . f2` está em **O(g . h)**.
+# Para o produto de duas funções, a ordem de crescimento resultante é o produto das ordens de crescimento individuais.
+# 
+# No exemplo:
+# - `f1_qn6(n)` (`3n`) é `O(n)`.
+# - `f2_qn6(n)` (`4n^2`) é `O(n^2)`.
+# 
+# O produto `f1_qn6(n) * f2_qn6(n)` é `(3n) * (4n^2) = 12n^3`. 
+# Como esperado, a ordem de crescimento é `O(n^3)`. 
+# O gráfico mostra que o produto das duas funções (`f1(n) * f2(n)`) segue o mesmo padrão de crescimento de `n^3`.
+# 
+# **Conclusão para Q6:** Se `f1` está em `O(g)` e `f2` está em `O(h)`, então `f1 . f2` está em **O(g . h)**.
 
 #Exercicio pratica
 
