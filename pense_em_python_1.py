@@ -3,7 +3,9 @@
 ##1.3 -primeiro programa
 
 print("hello world")
+
 print('hello world!')
+
 print('meu nome é viccenzo de oliveira')
 print('eu estou cursando o superior chamado ciência da computação')
 print('eu sou portador de deficiência audtitiva')
